@@ -1,0 +1,3 @@
+*.xpi
+data/components/
+node_modules/

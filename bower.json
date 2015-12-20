@@ -1,0 +1,6 @@
+{
+    "name": "emoji-everywhere",
+    "dependencies": {
+        "twemoji": "~1.4.2"
+    }
+}

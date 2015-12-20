@@ -1,0 +1,7 @@
+data/components/twemoji/assets/
+data/components/twemoji/svg/
+data/components/twemoji/16x16/
+data/components/twemoji/36x36/
+data/components/twemoji/72x72/
+node_modules/
+*.xpi

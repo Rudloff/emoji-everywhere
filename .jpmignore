@@ -1,7 +1,8 @@
-data/components/twemoji/assets/
-data/components/twemoji/svg/
-data/components/twemoji/16x16/
-data/components/twemoji/36x36/
-data/components/twemoji/72x72/
+data/components/twemoji/
+!data/components/twemoji/twemoji.min.js
 node_modules/
 *.xpi
+.git/
+.bowerrc
+.gitignore
+.jpmignore

@@ -1,7 +1,7 @@
 {
 	"title": "Emoji Everywhere",
 	"name": "emoji-everywhere",
-	"version": "0.1.0",
+	"version": "0.1.1",
 	"description": "Convert unicode emoji to images on all webpages",
 	"author": "Pierre Rudloff <contact@rudloff.pro>",
 	"license": "GPL-3.0",

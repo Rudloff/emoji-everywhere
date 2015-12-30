@@ -6,3 +6,4 @@ node_modules/
 .bowerrc
 .gitignore
 .jpmignore
+Gruntfile.js

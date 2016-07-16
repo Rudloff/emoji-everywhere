@@ -1,5 +1,6 @@
 data/components/twemoji/
 !data/components/twemoji/2/twemoji.min.js
+!data/components/twemoji/2/72x72/
 node_modules/
 *.xpi
 .git/

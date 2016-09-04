@@ -1,4 +1,8 @@
 /*global twemoji, self*/
 /*jslint browser: true*/
-twemoji.base = self.options.twemojiUrl;
-twemoji.parse(document.body);
+if (typeof twemoji == 'undefined') {
+    console.error("Can't load Twemoji");
+} else {
+    twemoji.base = self.options.twemojiUrl;
+    twemoji.parse(document.body);
+}

@@ -18,12 +18,27 @@ module.exports = function (grunt) {
                         'overqualified-elements': false
                     }
                 }
+            },
+            jsonlint: {
+                manifests: {
+                    src: ['*.json'],
+                    options: {
+                        format: true
+                    }
+                }
+            },
+            fixpack: {
+                package: {
+                    src: 'package.json'
+                }
             }
         }
     );
 
     grunt.loadNpmTasks('grunt-jslint');
     grunt.loadNpmTasks('grunt-contrib-csslint');
+    grunt.loadNpmTasks('grunt-jsonlint');
+    grunt.loadNpmTasks('grunt-fixpack');
 
-    grunt.registerTask('lint', ['jslint', 'csslint']);
+    grunt.registerTask('lint', ['jslint', 'csslint', 'jsonlint', 'fixpack']);
 };

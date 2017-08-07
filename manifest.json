@@ -3,9 +3,9 @@
   "name": "emoji-everywhere",
   "description": "Convert unicode emoji to images on all webpages",
   "version": "0.1.5-beta",
-  author: "Pierre Rudloff",
+  "author": "Pierre Rudloff",
   "developer": {
-    name: "Pierre Rudloff <contact@rudloff.pro>"
+    "name": "Pierre Rudloff <contact@rudloff.pro>"
   },
   "incognito": "spanning",
   "bugs": "https://github.com/Rudloff/emoji-everywhere/issues",

@@ -1,26 +1,29 @@
 {
   "manifest_version": 2,
   "name": "emoji-everywhere",
+  "description": "Convert unicode emoji to images on all webpages",
   "version": "0.1.5-beta",
-  "author": "Pierre Rudloff <contact@rudloff.pro>",
+  author: "Pierre Rudloff",
+  "developer": {
+    name: "Pierre Rudloff <contact@rudloff.pro>"
+  },
+  "incognito": "spanning",
   "bugs": "https://github.com/Rudloff/emoji-everywhere/issues",
+  "homepage_url": "https://addons.mozilla.org/firefox/addon/emoji-everywhere/",
   "devDependencies": {
     "grunt": "~1.0.0",
     "grunt-contrib-csslint": "~1.0.0",
-    "grunt-fixpack": "~0.1.0",
     "grunt-jslint": "~1.1.14",
     "grunt-jsonlint": "~1.1.0"
   },
-  "homepage": "https://addons.mozilla.org/fr/firefox/addon/emoji-everywhere/",
   "keywords": [
     "emoji",
     "firefox",
     "twemoji"
   ],
-  "description": "Convert unicode emoji to images on all webpages",
   "icons": {
     "48": "icons/emoji-48.png",
-	"96": "icons/emoji-96.png"
+    "96": "icons/emoji-96.png"
   },
   "content_scripts": [
     {

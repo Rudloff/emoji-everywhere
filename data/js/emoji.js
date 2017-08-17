@@ -1,4 +1,4 @@
-/*global twemoji*/
+/*global twemoji, browser*/
 /*jslint browser: true, devel: true*/
 if (twemoji === undefined) {
   console.error("Can't load Twemoji");

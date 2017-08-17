@@ -8,19 +8,7 @@
     "name": "Pierre Rudloff <contact@rudloff.pro>"
   },
   "incognito": "spanning",
-  "bugs": "https://github.com/Rudloff/emoji-everywhere/issues",
   "homepage_url": "https://addons.mozilla.org/firefox/addon/emoji-everywhere/",
-  "devDependencies": {
-    "grunt": "~1.0.0",
-    "grunt-contrib-csslint": "~1.0.0",
-    "grunt-jslint": "~1.1.14",
-    "grunt-jsonlint": "~1.1.0"
-  },
-  "keywords": [
-    "emoji",
-    "firefox",
-    "twemoji"
-  ],
   "icons": {
     "48": "icons/emoji-48.png",
     "96": "icons/emoji-96.png"
@@ -35,10 +23,7 @@
 	  "css": ["data/css/emoji.css"]
     }
   ],
-  "license": "GPL-3.0",
-  "main": "data/js/emoji.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Rudloff/emoji-everywhere.git"
-  }
+  "web_accessible_resources": [
+    "data/components/twemoji/2/72x72/*.png"
+  ]
 }

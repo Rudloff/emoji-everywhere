@@ -17,7 +17,7 @@
     {
       "matches": ["<all_urls>"],
       "js": [
-	    "data/js/twemoji.min.js",
+	    "data/components/twemoji/2/twemoji.min.js",
 	    "data/js/emoji.js"
 	  ],
 	  "css": ["data/css/emoji.css"]

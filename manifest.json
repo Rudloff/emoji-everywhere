@@ -15,12 +15,16 @@
   },
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
+      "matches": [
+        "<all_urls>"
+      ],
       "js": [
-	    "data/components/twemoji/2/twemoji.min.js",
-	    "data/js/emoji.js"
-	  ],
-	  "css": ["data/css/emoji.css"]
+        "data/components/twemoji/2/twemoji.min.js",
+        "data/js/emoji.js"
+      ],
+      "css": [
+        "data/css/emoji.css"
+      ]
     }
   ],
   "web_accessible_resources": [

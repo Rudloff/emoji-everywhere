@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "emoji-everywhere",
+  "description": "Convert unicode emoji to images on all webpages",
+  "version": "0.1.5-beta",
+  "author": "Pierre Rudloff",
+  "developer": {
+    "name": "Pierre Rudloff <contact@rudloff.pro>"
+  },
+  "incognito": "spanning",
+  "homepage_url": "https://addons.mozilla.org/firefox/addon/emoji-everywhere/",
+  "icons": {
+    "48": "icons/emoji-48.png",
+    "96": "icons/emoji-96.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": [
+	    "data/components/twemoji/2/twemoji.min.js",
+	    "data/js/emoji.js"
+	  ],
+	  "css": ["data/css/emoji.css"]
+    }
+  ],
+  "web_accessible_resources": [
+    "data/components/twemoji/2/72x72/*.png"
+  ]
+}

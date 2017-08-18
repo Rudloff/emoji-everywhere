@@ -5,7 +5,7 @@ module.exports = function (grunt) {
         {
             jslint: {
                 scripts: {
-                    src: ['index.js', 'data/js/*.js']
+                    src: ['data/js/*.js']
                 },
                 Gruntfile: {
                     src: ['Gruntfile.js']

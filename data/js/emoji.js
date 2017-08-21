@@ -1,8 +1,8 @@
 /*global twemoji, browser*/
-/*jslint browser: true, devel: true*/
-if (twemoji === undefined) {
-    console.error("Can't load Twemoji");
-} else {
+/*jslint browser: true*/
+if (typeof twemoji === "object") {
     twemoji.base = browser.extension.getURL('data/components/twemoji/2/');
     twemoji.parse(document.body);
+} else {
+    throw "Can't load Twemoji";
 }

@@ -9,7 +9,8 @@
     "grunt-contrib-csslint": "~2.0.0",
     "grunt-fixpack": "~0.1.0",
     "grunt-jslint": "~1.1.14",
-    "grunt-jsonlint": "~1.1.0"
+    "grunt-jsonlint": "~1.1.0",
+    "web-ext": "~2.2.2"
   },
   "homepage": "https://addons.mozilla.org/fr/firefox/addon/emoji-everywhere/",
   "keywords": [

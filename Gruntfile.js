@@ -31,6 +31,14 @@ module.exports = function (grunt) {
                 package: {
                     src: 'package.json'
                 }
+            },
+            copy: {
+                twemoji: {
+                    expand: true,
+                    cwd: 'node_modules/twemoji/2/',
+                    dest: 'data/components/twemoji/',
+                    src: '**'
+                }
             }
         }
     );
@@ -39,6 +47,8 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-csslint');
     grunt.loadNpmTasks('grunt-jsonlint');
     grunt.loadNpmTasks('grunt-fixpack');
+    grunt.loadNpmTasks('grunt-contrib-copy');
 
     grunt.registerTask('lint', ['jslint', 'csslint', 'jsonlint', 'fixpack']);
+    grunt.registerTask('default', ['copy']);
 };

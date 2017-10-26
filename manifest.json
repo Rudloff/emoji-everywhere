@@ -19,7 +19,7 @@
         "<all_urls>"
       ],
       "js": [
-        "data/components/twemoji/2/twemoji.min.js",
+        "data/components/twemoji/twemoji.min.js",
         "data/js/emoji.js"
       ],
       "css": [
@@ -28,6 +28,6 @@
     }
   ],
   "web_accessible_resources": [
-    "data/components/twemoji/2/72x72/*.png"
+    "data/components/twemoji/svg/*.svg"
   ]
 }

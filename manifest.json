@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "emoji-everywhere",
   "description": "Convert unicode emoji to images on all webpages",
-  "version": "0.1.5-beta",
+  "version": "0.1.4",
   "author": "Pierre Rudloff",
   "developer": {
     "name": "Pierre Rudloff <contact@rudloff.pro>"

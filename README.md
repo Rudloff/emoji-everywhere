@@ -1,5 +1,7 @@
 # Emoji Everywhere
 
+[![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/) Firefox now supports color emoji on every OS so this addon is not necessary anymore.
+
 Convert unicode emoji to images on all webpages
 
 ## License
